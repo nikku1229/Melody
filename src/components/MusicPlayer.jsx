@@ -43,7 +43,7 @@ const MusicPlayer = () => {
     if (!playerRef.current) return;
 
     gsap.set(playerRef.current, {
-      opacity: 0,
+      opacity: 0.8,
       y: 0,
     });
 
