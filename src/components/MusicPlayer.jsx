@@ -121,7 +121,8 @@ const MusicPlayer = () => {
   if (!currentSong) return null;
 
   return (
-    <div ref={playerRef} className="player glass">
+    // <div ref={playerRef} className="player glass">
+    <div className="player glass">
       <div ref={songInfoRef} className="song-info">
         <img src={currentSong.cover} alt="cover" loading="lazy" />
         <div>
