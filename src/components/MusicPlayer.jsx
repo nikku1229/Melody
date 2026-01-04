@@ -44,7 +44,7 @@ const MusicPlayer = () => {
 
     gsap.set(playerRef.current, {
       opacity: 0,
-      y: 100,
+      y: 0,
     });
 
     gsap.from(playerRef.current, {
@@ -121,8 +121,8 @@ const MusicPlayer = () => {
   if (!currentSong) return null;
 
   return (
-    // <div ref={playerRef} className="player glass">
-    <div className="player glass">
+    <div ref={playerRef} className="player glass">
+      {/* <div className="player glass"> */}
       <div ref={songInfoRef} className="song-info">
         <img src={currentSong.cover} alt="cover" loading="lazy" />
         <div>
