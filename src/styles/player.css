@@ -1,0 +1,151 @@
+.songs-list {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  gap: 15px;
+  padding-left: 50px;
+  padding-top: 20px;
+
+  h2 {
+    font-size: 34px;
+  }
+}
+
+.song {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+
+  img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .song-name {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+}
+
+.player {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1024px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 15px;
+  z-index: 1;
+  gap: 20px;
+}
+
+.song-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-transform: capitalize;
+  width: 30%;
+}
+
+.song-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.song-info h4 {
+  font-size: 0.9rem;
+}
+
+.song-info p {
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+.controls {
+  width: 60%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.controller-btn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #fff, #aaa);
+  border-radius: 10px;
+}
+
+.controls button,
+.extra button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.controls button:hover,
+.extra button:hover {
+  transform: scale(1.1);
+}
+
+.extra {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0px;
+}
+
+.vol {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  input {
+    height: 3px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+}
