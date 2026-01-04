@@ -59,20 +59,20 @@ This project is designed for **personal use**, fast loading, and offline-friendl
 ## 📁 Project Structure
 
 src/
-├─ assets/
-│ └─ covers/
-├─ components/
-│ ├─ MusicPlayer.jsx
-│ ├─ SongList.jsx
-│ └─ Playlists.jsx
-├─ context/
-│ └─ PlayerContext.jsx
-├─ data/
-│ └─ songs.js
-├─ styles/
-│ └─ player.css
-├─ App.jsx
-└─ main.jsx
+├─ assets/ <br>
+│ └─ covers/ <br>
+├─ components/ <br>
+│ ├─ MusicPlayer.jsx <br>
+│ ├─ SongList.jsx <br>
+│ └─ Playlists.jsx <br>
+├─ context/ <br>
+│ └─ PlayerContext.jsx <br>
+├─ data/ <br>
+│ └─ songs.js <br>
+├─ styles/ <br>
+│ └─ player.css <br>
+├─ App.jsx <br>
+└─ main.jsx <br>
 
 
 
