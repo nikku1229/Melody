@@ -8,7 +8,7 @@ This project is designed for **personal use**, fast loading, and offline-friendl
 ---
 
 ## 🚀 Live Demo
-🔗 
+🔗 https://melody-prototype.vercel.app/
 
 ---
 
