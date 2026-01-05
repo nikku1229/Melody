@@ -76,6 +76,7 @@ import cover75 from "../assets/covers/cover75.jpg";
 import cover76 from "../assets/covers/cover76.jpg";
 import cover77 from "../assets/covers/cover77.jpg";
 import cover78 from "../assets/covers/cover78.jpg";
+import cover79 from "../assets/covers/cover79.jpg";
 
 export const songs = [
   {
@@ -623,5 +624,12 @@ export const songs = [
     artist: "Aditya Rikhari",
     src: "/songs/song78.mp3",
     cover: cover78,
+  },
+  {
+    id: 79,
+    title: "Moonlight",
+    artist: "Harnoor",
+    src: "/songs/song79.mp3",
+    cover: cover79,
   },
 ];
