@@ -77,6 +77,7 @@ import cover76 from "../assets/covers/cover76.jpg";
 import cover77 from "../assets/covers/cover77.jpg";
 import cover78 from "../assets/covers/cover78.jpg";
 import cover79 from "../assets/covers/cover79.jpg";
+import cover80 from "../assets/covers/cover80.jpg";
 
 export const songs = [
   {
@@ -631,5 +632,12 @@ export const songs = [
     artist: "Harnoor",
     src: "/songs/song79.mp3",
     cover: cover79,
+  },
+  {
+    id: 80,
+    title: "Meri bheegi bheegi si",
+    artist: "Kishor kumar",
+    src: "/songs/song80.mp3",
+    cover: cover80,
   },
 ];
